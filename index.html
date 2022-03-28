@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <section>
+        <img src="po.png" alt="logo_pokemon" id="logoPokemon">
+    </section>
+
+   
+
+    <div class="estructuraPokedex">
+        <div id="circulos">
+            <img src="azul3.png" alt="circulo" class="circulosAzul">
+            <img src="rojo.png" alt="circulo" class="circulos1">
+            <img src="amarillo2.png" alt="circulo" class="circulos1">
+            <img src="verde.png" alt="circulo" class="circulos1">
+
+            <div id="prueba">
+                <img src="bosque.jpg" alt="" id="bosque">
+            </div>
+                
+        
+            <div id="entrada">
+                <input type="text" id="buscar" placeholder="Nombre pokemon">
+                <button id="btn_buscar" onclick="fetchPokemon()">Buscar</button><br>
+            </div>
+        </div>
+
+
+       
+        <div id="detalles">
+            <div id="caracteristicas">
+                Nombre
+                <input type="text" id="nombre">
+                <br>
+               Tipo
+                <input type="text" id="tipo">
+
+                
+            </div>
+
+            <h1>Estadísticas</h1><br>
+                <section id="Estadistica" class="Altura">
+        
+                </section>
+
+                 <h1>Movimientos</h1>
+                 <section id="movimientos" class="Altura">
+             
+                 </section>
+        </div>
+        
+    </div>
+
+
+    
+</body>
+
+<footer>
+    <script src="pokedex.js"></script>
+</footer>
+</html>
